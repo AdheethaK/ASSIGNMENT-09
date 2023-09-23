@@ -1,18 +1,47 @@
+*{
+    font-family: Oxygen;
+}
 .box{
     width: 200px;
     height: 50px;
-    border: 1px solid black;
     fill: white;
 
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+    margin: 10px;
 }
+#box-1{
+    left: 2%;
+    top: 20%;
+    opacity: 0.2;
+    background-color: crimson;
+}
+#box-2{
+    left: 21%;
+    top: 20%;
+    opacity: 0.4;
+    background-color: crimson;
+}
+#box-3{
+    left: 40%;
+    top: 20%;
+    opacity: 0.6;
+    background-color: crimson;
+}
+#box-4{
+    left: 59%;
+    top: 20%;
+    opacity: 0.8;
+    background-color: crimson;
+}
+#box-5{
+    left: 78%;
+    top: 20%;
+    opacity: 1;
+    background-color: crimson;
+}
+/*container*/
 #container{
-    width: 70%;
+    width: 90%;
     height: 20%;
 
     position: absolute;
@@ -22,7 +51,10 @@
     right: 0;
     margin: auto;
 
-    background-color: yellowgreen;
-
     display: inline-flex;
+}
+.btn-panel{
+    position: absolute;
+    top: 70%;
+    left: 45%;
 }
