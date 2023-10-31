@@ -1,0 +1,72 @@
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-text-fill-color: #F5403D;
+
+    position: absolute;
+    top: 30%;
+    left: 33%;
+}
+body{
+    background-color: black;
+}
+.kitt-container{
+    width: 750px;
+    height: 70px;
+    /*background-color: orange;*/
+    z-index: 999;
+
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.kitt-unit{
+    width: 100px;
+    height: 60px;
+    background-color: white;
+
+    display: inline-block;
+    margin: 1.8px;
+    margin-top: 5px;
+
+    border-radius: 6px;
+}
+.btn-panel{
+    width: 180px;
+    height: 40px;
+    /*background-color: blue;*/
+
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.btn-panel>button{
+    margin: 10px;
+    margin-right: 16px;
+    margin-left: 16px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-panel>button:first-of-type{
+    background-color: greenyellow;
+    -webkit-text-fill-color: black;
+    border: none;
+}
+.btn-panel>button:nth-of-type(2){
+    background-color: red;
+    -webkit-text-fill-color: white;
+
+    border: none;
+}
