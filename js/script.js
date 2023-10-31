@@ -96,16 +96,6 @@ function kitt(){
 function stop(){
     clearInterval(nIntervalID);
 
-    //clear timeouts
-    clearTimeout(timeoutId_1);
-    clearTimeout(timeoutId_2);
-    clearTimeout(timeoutId_3);
-    clearTimeout(timeoutId_4);
-    clearTimeout(timeoutId_5);
-    clearTimeout(timeoutId_6);
-    clearTimeout(timeoutId_7);
-    clearTimeout(timeoutId_8);
-
     //release our intervalID from the variable
     nIntervalId = null;
 }
